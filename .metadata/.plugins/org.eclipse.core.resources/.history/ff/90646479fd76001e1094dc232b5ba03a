@@ -1,0 +1,29 @@
+/* 231030
+평입력 받아 평방미터 계산
+*/
+
+
+import java.util.Scanner;
+
+public class SquarMeterConversion {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		double squar;
+		double squarMeter;
+		
+		System.out.println("평입력 받아 평방미터 계산"); // 제목
+		System.out.println();
+
+		System.out.println("평을 입력해주세요");
+		squar = input.nextDouble();
+		
+		squarMeter = squar / 3.3058;
+		
+		System.out.println(squar + " 평 의 평방미터는 " + squarMeter + " 입니다.");
+		
+	}
+
+}

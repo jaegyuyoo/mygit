@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class WindSpeedTemperature {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		double twc; // 풍속냉각온도
+		double ta; // 외부온도
+		double v; // 바람속도
+		
+		System.out.println("외부온도, 바람속도 입력받아 풍속냉각온도 계산");
+		System.out.println();
+		
+		System.out.println("외부온도를 입력하시오: ");
+		ta = input.nextDouble();
+		
+		System.out.println("바람속도를 입력하시오: ");
+		v = input.nextDouble();
+		
+		if (v > 3 && -50 < ta && ta > 5) {
+			twc = 13.12 + (0.6215*ta) - 11.36*Math.pow(v, 0.16) + 0.3965*ta*(v^0.16);
+			System.out.println("풍냉각온도는 : " + twc);
+		} else {
+			System.out.println("사용 할 수 없다");
+		}
+				
+	}
+
+}

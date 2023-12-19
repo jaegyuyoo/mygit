@@ -1,0 +1,34 @@
+/* 231030 
+원화 입력받아 달러화 계산
+*/
+
+import java.util.Scanner;
+
+public class DollarCalculation {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+
+		double exchangeRate; // 환율 변수
+		double krw; // 원화 변수
+		double calculate; // 환율 계산 변수
+
+		System.out.println("원화를 입력받아 달러화 계산");
+		System.out.println("");
+
+		System.out.print("환율을 입력하시오 : ");
+		exchangeRate = input.nextInt(); // 환율 입력
+
+		System.out.print("원화 금액을 입력하시오 : ");
+		krw = input.nextInt(); // 원화 입력
+
+		calculate = (krw / exchangeRate);
+		// 달러화 계산 (원화 / 환율)
+		
+		System.out.println("원화는 " + krw + " 은 " + calculate + " 달러 입니다.");
+		// 결과출력
+		
+	}
+
+}

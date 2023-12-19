@@ -1,0 +1,36 @@
+/* 231030
+물, 최종, 초기온도 입력받아 에너지 계산
+*/
+
+import java.util.Scanner;
+
+public class EnergyToHeatWater {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+
+		double m; // 물의 무게 변수
+		double q; // 에너지의 변수
+		double initialTemperate; // 초기온도의 변수
+		double finalTemperate; // 최종온도의 변수
+
+		System.out.println("물, 최종, 초기온도 입력받아 에너지 계산"); // 제목
+		System.out.println();
+
+		System.out.println("물의주개를 입력해주세요");
+		m = input.nextDouble(); // 물의 무게 입력
+
+		System.out.println("초기온도를를 입력해주세요");
+		initialTemperate = input.nextDouble(); // 초기온도 입력
+
+		System.out.println("최종온도를 입력해주세요");
+		finalTemperate = input.nextDouble(); // 최종온도 입력
+
+		q = m * (finalTemperate - initialTemperate) * 4184;
+
+		System.out.println("물 " + m + "초기온도" + initialTemperate + "최종온도" + finalTemperate + "의 에너지는 " + q + " 입니다.");
+
+	}
+
+}

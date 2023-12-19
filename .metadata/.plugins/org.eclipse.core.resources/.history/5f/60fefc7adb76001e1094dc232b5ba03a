@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class SphereVolumeCalculation {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		double radius;
+		double volume;
+		
+		System.out.println("반지름의 길이를 입력해주세요(실수)");
+		radius = input.nextDouble();
+		
+		volume = 4 / 3 * 3.14 * radius * radius * radius;
+		
+		System.out.println("반지름이" + radius+ "인 구의 부피는" + volume + "입니다");
+		
+	}
+
+}

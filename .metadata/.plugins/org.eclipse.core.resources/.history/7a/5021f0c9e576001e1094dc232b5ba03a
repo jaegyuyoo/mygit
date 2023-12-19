@@ -1,0 +1,12 @@
+/* 231030 
+받은돈, 상품가격 입력받아 부가세 거름돈 계산 및 출력
+*/
+
+
+public class VatChangeCalculation {
+
+	public static void main(String[] args) {
+
+	}
+
+}

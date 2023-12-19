@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class StudentArrayInput {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		
+		final int STUDENTS = 10; // 학생수
+		double total = 0; // 총점 , 0일때 오류방지 초기값 
+		
+		System.out.println("성적프로그램");
+		
+		// 점수입력
+		int[] scores = new int[STUDENTS];
+		for (int i = 0; i < STUDENTS; i++) {
+			System.out.print((i + 1) + " 번 학생 국어 성적입력: ");
+			scores[i] = scan.nextInt();
+		}
+		
+		
+		// 총점계산 
+		for (int i = 0; i < STUDENTS; i++) {
+			total += scores[i];
+			
+		}
+		
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+/*
+만든이: 유재규, 수정일: 231030
+*/
+
+public class CoffeeKisok_Start {
+
+	public static void main(String[] args) {
+
+		Scanner
+		
+
+import java.util.Scanner;
+
+System.out.print("메뉴를 선택해주세요.");
+
+	
+		
+	}
+}

@@ -1,0 +1,10 @@
+
+public class Stringexe {
+
+	public static void main(String[] args) {
+
+		String name;
+		name = "유재규";
+	}
+
+}

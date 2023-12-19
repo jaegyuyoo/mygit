@@ -1,0 +1,104 @@
+import java.util.Scanner;
+
+public class Temp {
+
+	public static void main(String[] args) {
+
+		
+		int[][] a = new int[2][];
+		
+		System.out.println(Arrays.toString(a));
+		
+		
+/*		
+		double[] a = {1, 2, 3.4, 5.6};
+		double[] b = a; 
+		b[0] = 7.8;
+		System.out.println(Arrays.toString(a));
+		System.out.println(Arrays.toString(b));
+*/	
+		
+/*
+		for (int i = 0; i < 10; i++) {
+			for (int j = 0; j < 5; j++) {
+				if(i == 3 && j ==2 )
+					break;
+				System.out.println(i + " " + j);
+			}
+			
+		}
+*/
+
+/*
+		for (int i = 0; i < 5; i++) {
+			for (int j = 0; j < 3; j++) {
+				if(i == 2) {
+					continue;
+				}
+				if(j == 1) {
+					break;
+				}
+				System.out.println("A");
+			}
+		}
+		
+*/
+
+/*
+		for (int i = 10; i > 0; i -= 2) {
+			System.out.println(i);
+		}
+		
+		int i = 10;		
+		while (i>0) {
+			System.out.println(i);
+			i -= 2;
+		}
+*/	
+
+/*
+	 for (int i = 0; i <= 10 ; i++) {
+		if (i % 2 == 1) {
+			continue;
+		} 
+		if (i > 10) {
+			break;
+		}
+		System.out.println(i);
+	 }
+*/		
+		
+/*		
+		int score = 72;
+
+		switch (score/10) {
+		case 10: 
+		case 9: 
+			System.out.println("A"); break;
+		case 8:
+			System.out.println("B"); break;
+		case 7: // 1~6까지 굳이 써줄 필요가없다.
+			System.out.println("C"); break;
+		default:
+			System.out.println("F");		
+
+		}
+		
+
+		
+/*		
+		int score = 72;
+		
+		if(score >= 90) {
+			System.out.println("A");
+		} else if ( score < 90 && score >= 80 ) {
+			System.out.println("B");
+		} else if ( score < 80 && score >= 70) {
+			System.out.println("C");
+		} else {
+			System.out.println("F학점");
+		}
+*/ 
+	
+	}
+}

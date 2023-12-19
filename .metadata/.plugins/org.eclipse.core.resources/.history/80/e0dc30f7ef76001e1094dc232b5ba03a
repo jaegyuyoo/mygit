@@ -1,0 +1,36 @@
+/*
+만든이: 유재규, 수정일: 231030
+*/
+
+import java.util.Scanner;
+
+	public class CoffeeKisok_Start {
+		
+		public static void main(String[] args) {
+	
+		Scanner
+		
+		System.out.println("★커피 자판기★");
+		System.out.println();
+
+		// 음료 list
+		System.out.print("1. 아메리카노(L)-HOT (4,000원) \t");
+		System.out.println("2. 아메리카노(R)-HOT (3,500원)");
+		System.out.print("3. 아메리카노(L)-ICE (4,000원) \t");
+		System.out.println("4. 아메리카노(R)-ICE (3,500원)");
+		System.out.print("5. 라떼(L)-HOT (4,500원) \t\t");
+		System.out.println("6. 라떼(R)-HOT (4,000원)");
+		System.out.print("7. 라떼(L)-ICE (4,500원) \t\t");
+		System.out.println("8. 라떼(R)-ICE (4,000원)");
+		System.out.println();
+
+		// waiting screen
+
+
+
+System.out.print("메뉴를 선택해주세요.");
+
+	
+		
+	}
+}

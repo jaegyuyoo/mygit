@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class PolygonAreaCalculator {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		String op;
+		
+		double number1;
+		double number2;
+		
+		double squar;
+		double width;
+		double length;
+		
+		double triangle;
+		double base;
+		double height;
+		
+		double circle;
+		double radius;
+		
+		System.out.println("R/T/C 문자중 하나를 입력해주세요: ");
+		op = input.next();
+
+		switch (op) {
+		case "R" 
+			total = number1 + number2;
+			System.out.println(total);
+			break;
+		case "T":
+			total = number1 - number2;
+			System.out.println(total);
+			break;
+		case "C": 
+			total = number1 * number2;
+			System.out.println(total);
+			break;
+		default:
+	}
+}

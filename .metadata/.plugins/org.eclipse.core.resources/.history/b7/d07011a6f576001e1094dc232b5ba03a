@@ -1,0 +1,10 @@
+package Completed;
+
+public class AverageCalculation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

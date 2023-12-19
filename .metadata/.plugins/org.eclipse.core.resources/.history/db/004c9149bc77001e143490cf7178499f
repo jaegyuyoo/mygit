@@ -1,0 +1,12 @@
+package Completed;
+
+import java.util.Scanner;
+
+public class DayInMonth {
+
+	public static void main(String[] args) {
+
+		Scanner 
+	}
+
+}

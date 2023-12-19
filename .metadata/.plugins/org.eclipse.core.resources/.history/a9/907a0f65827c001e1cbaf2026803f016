@@ -1,0 +1,19 @@
+package _Pending;
+
+public class BMI {
+
+	private String name;
+	private int age;
+	private double weight; // kg 단위
+	private double height; // 미터단위
+	
+	public BMI(String name, int age, double weight, double height) {
+		this.name = name;
+		this.age = age;
+		this.weight = weight;
+		this.height = height;
+	}
+	
+	public BMI(String name, int age, double weight, double height)
+	
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;C.java&apos; to &apos;Ch2_Doit.java&apos;&#x0D;&#x0A;- Original project: &apos;Class&apos;&#x0D;&#x0A;- Destination element: &apos;Ch2_Doit.java&apos;&#x0D;&#x0A;- Original element: &apos;Doit.C.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=Doit/src&lt;{Ch2_Doit.java" element1="/src&lt;Doit{C.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1698625806206" units="1" version="1.0"/>
+</session>

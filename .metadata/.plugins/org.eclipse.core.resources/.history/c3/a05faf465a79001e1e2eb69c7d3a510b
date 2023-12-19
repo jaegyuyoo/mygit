@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Rainfall {
+
+	Scanner scan = new Scanner(System.in);
+	
+	final int YEARS = 3;  //년수
+	final int QUARTERS = 3;  // 분기
+	
+	
+	
+	
+}

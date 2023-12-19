@@ -1,0 +1,22 @@
+
+public class Stringexe {
+
+	public static void main(String[] args) {
+
+		String name;
+		name = "유재규";
+
+		System.out.println(name);
+		System.out.println(name.length());
+		System.out.println("유재규");
+		System.out.println("유재규".length()); // 변수선언하던, 바로 입력하던 똑같다.
+		
+		System.out.println(name.charAt(0));
+		System.out.println(name.charAt(1));
+		System.out.println(name.charAt(2));
+		// System.out.println(name.charAt(3));
+		
+		
+	}
+
+}

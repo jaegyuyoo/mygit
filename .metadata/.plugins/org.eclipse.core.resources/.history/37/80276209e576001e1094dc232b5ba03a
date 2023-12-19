@@ -1,0 +1,23 @@
+/* 231030 
+x값 입력받아 다항식계산
+*/
+
+import java.util.Scanner;
+
+public class PolynomialCalculation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner input = new Scanner(System.in);
+		
+		int x;
+		int sum; 
+		
+		sum = (3*(x*x*x)) + (7*(x*x)) + (11*x) + 6;
+		
+		
+		
+	}
+
+}

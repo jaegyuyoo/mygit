@@ -1,0 +1,50 @@
+package Completed_5ch_ReferenceType_Array_pdf;
+import java.util.Scanner;
+import java.util.concurrent.ForkJoinPool;
+
+public class MaxValue {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+
+		final int TOTAL_NUMBERS = 6; // 배열갯수
+		int[] numbers = new int[TOTAL_NUMBERS]; // 1차원배열선언
+		int max; // 최대값
+		int count = 0; // 최대값개수
+		String output = "\n 배열: ";
+
+		System.out.println("6개의 정수를 입력받아 최대값을 출력하는 프로그램");
+
+		// 6개의 정수입력
+		for (int i = 0; i < TOTAL_NUMBERS; i++) {
+			System.out.println("정수 입력: ");
+			numbers[i] = input.nextInt();
+		}
+
+		// 최대값 찾기
+		max = numbers[0]; // 0번을 최대값이라 가정
+		for (int i = 0; i < TOTAL_NUMBERS; i++) {
+			if (max < numbers[i]) {
+				max = numbers[i];
+			System.out.println("max확인" + max);
+			}
+		}
+		// 최대값 개수
+		for (int i = 0; i < TOTAL_NUMBERS; i++) {
+			if (max == numbers[i]) {
+				count++;
+			System.out.println("count확인" + max);
+			}
+		}
+		// 배열 출력 문자열
+		for (int i = 0; i < TOTAL_NUMBERS; i++) {
+			output += numbers[i] + " ";
+		}
+		output += "\n 최대값: " + max;
+		output += "\n 가장큰 숫자 발생횟수: " + count;
+
+		System.out.println(output);
+	}
+
+}

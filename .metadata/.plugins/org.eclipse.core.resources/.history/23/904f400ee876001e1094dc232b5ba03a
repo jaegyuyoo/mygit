@@ -1,0 +1,12 @@
+/* 231030 
+원화 입력받아 달러화 계산
+*/
+
+public class DollarCalculation {
+
+	public static void main(String[] args) {
+
+		
+	}
+
+}

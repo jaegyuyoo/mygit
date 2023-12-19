@@ -1,0 +1,57 @@
+/* 231030
+4과목 입력받아 평균점수 계산
+*/
+package Completed;
+
+import java.util.Scanner;
+
+public class AverageCalculation {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		// 사용자로 부터 입력을 받기 위해 Scanner를 생선한다.
+		
+		System.out.println("컴퓨터개론, Java프로그래밍, 영어, 일반수학 의 평균점수 계산"); // 제목
+		System.out.println();
+
+		int computer; // 컴퓨터개론 변수선언
+		int java; // java프로그래밍 변수선언
+		int english; // 영어 변수선언
+		int math; // 일반수학 변수선언
+		int sum; // 4과목의 합 변수선언
+		double average; // 4과목의 평균 변수선언
+
+		System.out.print("컴퓨터 개론 점수 : ");
+		computer = input.nextInt(); // 컴퓨터개론 점수 입력
+
+		System.out.print("Java 프로그래밍 : ");
+		java = input.nextInt(); // java 프로그래밍 점수 입력
+
+		System.out.print("영어 점수 : ");
+		english = input.nextInt(); // 영어 점수 입력
+
+		System.out.print("일반 수학 점수 : ");
+		math = input.nextInt(); // 일반수학 점수 입력
+
+		if (computer >= 0 && java >= 0 && english >= 0 && math >=0) {
+			sum = computer + java + english + math; // 4과목의 합
+			average = sum / 4; // 4과목의 평균
+
+			System.out.print("결과");
+			System.out.println();
+			System.out.print("총점 : " + sum + ",   평균 : " + average);
+
+		} else if (computer < 0 || java >= 0 && english >= 0 && math >=0) {
+			System.out.println("컴퓨터 점수 음수입니다.");
+		} else if (computer < 0 && java < 0 || english >= 0 && math >=0) {
+			
+		}{
+			System.out.println("테스트중");
+		}
+		
+		
+
+	}
+
+}

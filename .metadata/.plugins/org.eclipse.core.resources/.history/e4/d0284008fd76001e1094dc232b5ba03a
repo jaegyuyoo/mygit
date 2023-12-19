@@ -1,0 +1,22 @@
+/* 231030
+시, 분, 초 입력받아 '초'로 계산
+*/
+
+
+import java.util.Scanner;
+
+public class SquarMeterConversion {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		int squar;
+		int squarMeter;
+		
+		System.out.println("시, 분, 초 입력받아 '초'로 계산"); // 제목
+		System.out.println();
+
+	}
+
+}

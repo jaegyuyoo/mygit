@@ -1,0 +1,31 @@
+package Completed_2_3ch_dataType_operator_pdf;
+
+import java.util.Scanner;
+
+public class AdditionQuiz {
+
+	public static void main(String[] args) {
+		// 사용자로 부터 입력을 받기 위해 Scanner를 생선한다.
+		Scanner input = new Scanner(System.in);
+
+		int randomNumber1; // 첫 번째 임의의 수
+		int randomNumber2; // 두 번째 임의의 수
+		int answer; // 정답 입력
+
+		// currentTimeMillis() 메소드는
+		// 1970년 1월 1일 00:00:00 GMT 시간으로부터 경과된 밀리세컨드 (1/1000초)
+		randomNumber1 = (int) (System.currentTimeMillis() % 100);
+		randomNumber2 = (int) (System.currentTimeMillis() * 7 % 100);
+
+		System.out.println("두수의 합을 맞추는 퀴즈");
+		System.out.println(randomNumber1 + " + " + randomNumber2 + " = ");
+		answer = input.nextInt();
+		
+		// 정답과 결과 출력 
+		System.out.println("정답 : " + randomNumber1 + " + " + randomNumber2 + " = " + (randomNumber1 + randomNumber2));
+		System.out.println("결 과");
+		System.out.println((randomNumber1 + randomNumber2) == answer ? "정답" : "오답");
+
+	}
+
+}

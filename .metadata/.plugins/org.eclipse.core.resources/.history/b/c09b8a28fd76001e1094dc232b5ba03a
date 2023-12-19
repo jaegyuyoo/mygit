@@ -1,0 +1,23 @@
+/* 231030
+평입력 받아 평방미터 계산
+*/
+
+
+import java.util.Scanner;
+
+public class SquarMeterConversion {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		int squar;
+		int squarMeter;
+		
+		System.out.println("평입력 받아 평방미터 계산"); // 제목
+		System.out.println();
+
+		
+	}
+
+}

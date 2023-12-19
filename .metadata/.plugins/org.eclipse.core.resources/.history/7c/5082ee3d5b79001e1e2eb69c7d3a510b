@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Rainfall {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		final int YEARS = 3; //년도
+		final int QUARTERS = 4; // 분기
+		double[][] rain = new double[YEARS][QUARTERS];
+		
+		System.out.println(YEARS +" 년간 강수량을 계산하는 프로그램");
+		
+		
+		// 강수량입력
+		for (int y = 0; y < YEARS; y++) {
+			for (int q = 0; q < QUARTERS; q++) {
+				System.out.println((y+1) + " 차년도 " + (q+1) + "분기강수량 : ");
+				
+			}
+		}
+	}
+
+}

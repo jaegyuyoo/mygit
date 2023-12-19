@@ -1,0 +1,38 @@
+
+public class CalendarPrint {
+
+	public static void main(String[] args) {
+
+		int year;
+		int startDay;
+		int month;
+
+		switch (month) {
+		case 1:
+			System.out.println(year + " January(1월)");
+			
+		case 2:
+			System.out.println(year + " Feburary(2월)");
+			
+		case 3:
+			System.out.println(year + " March(3월)");
+			
+		case 4:
+			System.out.println(year + " April(4월)");
+			
+		case 5:
+			System.out.println(year + " May(5월)");
+			
+		case 6:
+		case 7:
+		case 8:
+		case 9:
+		case 10:
+		case 11:
+		case 12:
+
+		default:
+		}
+	}
+
+}

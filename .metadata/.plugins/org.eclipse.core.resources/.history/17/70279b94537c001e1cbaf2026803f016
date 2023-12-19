@@ -1,0 +1,12 @@
+
+public class Calc2 {
+
+	private int firstnumber;
+	private int scondnumber;
+	
+	public Calc2() {
+		super();
+	}
+	
+	
+}

@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class ComputerLoen {
+
+	public static void main(String[] args) {
+
+			Scanner input = new Scanner(System.in);
+			
+			double annualInterestRate; // 연간 이자율
+			double monthlyInterestRate; // 매월 금리
+			int numberOfYears; // 대출 연수
+			double loanAmount; // 대출 금액
+			double monthlyPayment; // 매월 지불금
+			double totalPayment; // 전체 대출액
+			
+			// 연간 이자율 입력
+			System.out.println("연간 이자율을 입력(예: 8.25) : ");
+			annualInterestRate = input.nextDouble();
+			
+			// 매월 금리를 구한다.
+			monthlyInterestRate = annualInterestRate / 1200;
+			
+			// 연수 입력 
+		
+	}
+
+}

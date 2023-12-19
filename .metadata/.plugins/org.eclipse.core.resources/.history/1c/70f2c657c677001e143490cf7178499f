@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+public class AlphanumericCalculator {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		String op;
+		
+		double number1;
+		double number2;
+		double total;
+		
+		System.out.println(하나의 문자를 입력 받은뒤, 두 수를 입력받아 사칙연산 계산);
+		System.out.println();
+		
+		System.out.println("사칙연산중 하나의 문자를 입력해주세요");
+		op = input.next();
+		
+		System.out.println("첫번째 숫자를 입력해주세요.");
+		number1 = input.nextDouble();
+		
+		System.out.println("두번째 숫자를 입력해주세요.");
+		number2 = input.nextDouble();
+		
+		switch (op) {
+		case "+": {
+			total = number1 + number2;
+			System.out.println(sum);
+			break;
+		case "-":
+			sum = number1 - number2;
+			System.out.println(sum);
+			break;
+		case "*": 
+			sum = number1 * number2;
+			System.out.println(sum);
+			break;
+		case "/":
+			sum = number1 / number2;
+			System.out.println(sum);
+			break;
+			
+		}
+		default:
+			
+		}

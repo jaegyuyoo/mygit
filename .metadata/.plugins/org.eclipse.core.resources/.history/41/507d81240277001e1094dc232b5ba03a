@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class TuitionFee {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		int tuition;
+		int increase;
+		int increase_2years;
+		int increase_3years;
+		int increase_4years;
+		
+		
+	}
+
+}

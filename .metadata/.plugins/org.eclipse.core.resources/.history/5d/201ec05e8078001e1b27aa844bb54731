@@ -1,0 +1,196 @@
+import java.util.Iterator;
+
+public class Ch4 {
+
+	public static void main(String[] args) {
+
+		// p141
+		for (int i = 0; i < 10; i++) {
+			System.out.println(i);
+			break;
+		}
+		
+		for (int i = 0; i < 10; i++) {
+			if (i == 5) {
+				break;
+			}
+			System.out.print(i + " ");
+		}
+		System.out.println();
+		System.out.println();
+		
+		// 다중 반복문 탈출
+		// @1개의 반목문만 탈출할 대
+		for (int i = 0; i < 5; i++) {
+			for (int j = 0; j < 5; j++) {
+				
+			}
+			
+		}
+	}
+	}
+		
+/*		
+		// p137
+		int value1 = 5;
+		int value2 = 3;
+		if (value1 < 5) {
+			if (value2 < 2) {
+				System.out.println("실행1");
+			} else {
+				System.out.println("실행2");	
+			}
+		}
+		
+		else {
+			System.out.println("실행3");
+		}
+		System.out.println();
+		
+		// switch-for 중복
+		int value3 = 2;
+		switch (value3) {
+		case 1: 
+			for(int k = 0; k < 10; k++) {
+				System.out.print(k + " ");
+			}
+			break;
+		case 2: 
+			for(int k = 10; k > 0; k--) {
+				System.out.print(k + " ");
+			}
+			break;
+		}
+		System.out.println();
+		System.out.println();
+		
+		//for-for-if 중복
+		for(int i = 0; i < 3; i++) {
+			for(int j = 0; j < 5; j++) {
+				System.out.println(i + " " + j);
+				if (i == j) {
+					System.out.println("i = j");
+				}
+			}
+		}
+	}
+	}
+*/
+
+/*
+		// p136
+		int a;
+		a = 0;
+		while (a < 0) {
+			System.out.println(a + " "); // 실행안한다.
+			a++;
+		}
+		System.out.println();
+
+		a = 0;
+		do {
+			System.out.println(a + " "); // 실행1번 : 0
+			a++;
+		} while (a < 0);
+		System.out.println();
+
+		// 반복 횟수가 1일 때 do-while 문과 while 문 비교
+		a = 0;
+		while (a < 1) {
+			System.out.println(a + " "); // 실행 1번 : 0
+			a++;
+		}
+		System.out.println();
+
+		a = 0;
+		do {
+			System.out.println(a + " "); // 실행 1번 : 0
+			a++;
+		} while (a < 1);
+		System.out.println();
+
+		// 반복 횟수가 10일 때 do-while 문과 while 문 비교
+		a = 0;
+		while (a < 10) {
+			System.out.print(a + " "); // 10번실행
+			a++;
+		}
+		System.out.println();
+
+		a = 0;
+		do {
+			System.out.print(a + " ");
+			a++;
+		} while (a < 10);
+*/	
+
+
+		/*
+		 * // p128 int a ; for(a = 0; a < 3; a++) { System.out.println(a + " ");
+		 * 
+		 * } System.out.println();
+		 * 
+		 * for(int i = 0; i < 3; i++) { System.out.println(i + " ");
+		 * 
+		 * } System.out.println();
+		 * 
+		 * for(int i = 0; i < 100; i++) { System.out.println(i + " "); }
+		 * System.out.println();
+		 * 
+		 * for(int i = 10; i > 0; i--) { System.out.println(i + ""); }
+		 * System.out.println();
+		 * 
+		 * for(int i = 0; i < 10; i +=2) { System.out.println(i + " "); }
+		 * System.out.println();
+		 * 
+		 * for(int i = 0, j = 0; i < 10; i++, j++) { System.out.println(i + j + " "); }
+		 * System.out.println();
+		 * 
+		 * for(int i = 0; ; i++) { if(i > 10) { break; } System.out.println(i + " "); }
+		 * System.out.println("무한루프 탈출");
+		 */
+
+		/*
+		 * int value1 = 2; switch(value1) { case 1: System.out.println("A"); case 2:
+		 * System.out.println("B"); case 3: System.out.println("C"); default:
+		 * System.out.println("D"); } System.out.println();
+		 * 
+		 * int value2 = 2; switch (value2) { case 1: System.out.println("A"); break;
+		 * case 2: System.out.println("B"); break; case 3: System.out.println("C");
+		 * break; default: System.out.println("D"); } System.out.println();
+		 * 
+		 * // if - else if - else 구문으로 변환 if (value1 ==1) { System.out.println("A"); }
+		 * else if (value1 == 2) { System.out.println("B"); } else if (value1 == 3) {
+		 * System.out.println("C"); } else{ System.out.println("D"); }
+		 */
+
+		/*
+		 * // 유형 1 : if int value1 = 5; if (value1 > 3) { System.out.println("실행1"); //
+		 * 실행
+		 * 
+		 * } if (value1 < 5) { System.out.println("실행2"); }
+		 * 
+		 * boolean bool1 = true; boolean bool2 = false; if (bool1) {
+		 * System.out.println("실행3"); // 실행 } if (bool2) { System.out.println("실행4"); }
+		 * 
+		 * // 유형 2: if-else int value2 = 5; if (value2 > 3) { System.out.println("실행5");
+		 * // 실행 후 탈출 } else { System.out.println("실행6"); }
+		 * 
+		 * // cf. 삼항 연산자와 변환가능 System.out.println((value2 > 3) ? "실행5" : "실행6");
+		 * System.out.println();
+		 * 
+		 * // 유형 3 : if-else if-else if - ... - else int value3 = 85; if (value3 >= 90)
+		 * { System.out.println("A학점"); } else if (value3 >= 80) {
+		 * System.out.println("B학점"); // 실행 후 탈출 } else if (value1 >= 70) {
+		 * System.out.println("C학점"); } else { System.out.println("F학점"); }
+		 * 
+		 * if (value3 >= 70) { System.out.println("C학점"); // 실행 후 탈출 } else if (value3
+		 * >= 80) { System.out.println("B학점"); } else if (value1 >= 90) {
+		 * System.out.println("A학점"); } else { System.out.println("F학점"); }
+		 * 
+		 * if (value3 >= 70 && value3 < 80) { System.out.println("C학점"); } else if
+		 * (value3 >= 80 && value3 < 90) { System.out.println("B학점"); // 실행 후 탈출 } else
+		 * if (value3 >= 90) { System.out.println("A학점"); } else {
+		 * System.out.println("F학점"); }
+		 * 
+		 */

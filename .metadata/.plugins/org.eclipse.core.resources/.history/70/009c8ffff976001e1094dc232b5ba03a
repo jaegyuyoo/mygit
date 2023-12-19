@@ -1,0 +1,24 @@
+/* 231030
+예금액, 연이율을 입력받아 2년간 복리이자 계산 
+*/
+
+import java.util.Scanner;
+
+public class InterestCalculation {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		int desosit;
+		int annualInterestRate;
+		int interest;
+		int total;
+		
+		
+		
+		
+		
+	}
+
+}

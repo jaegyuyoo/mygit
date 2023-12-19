@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class SubtractionQuizLoop {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		final int NUMBER_OF_QUESTIONS = 5; // 총 문제 갯수
+		int correctionCount = 0; // 정답 갯수
+		int count = 0; // 반복문 탈출
+		long startTime; // 시작시각
+		long endTime; // 종료시각
+		long testTime; // 테스트 전체 초
+		long currentSecond; // 테스트 초 계산
+		long totalMinutes; // 테스트 분 계산 
+		
+	}
+
+}

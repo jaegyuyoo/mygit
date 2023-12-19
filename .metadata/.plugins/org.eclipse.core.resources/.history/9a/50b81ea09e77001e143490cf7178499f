@@ -1,0 +1,28 @@
+package Completed;
+
+import java.util.Scanner;
+
+public class MiltesToKilometers {
+
+	public static void main(String[] args) {
+
+		// 마일값 입력을 위해 scanner
+		Scanner input = new Scanner(System.in);
+
+		// 변수선언
+		double miles;
+		double kilometers;
+
+		// 마일을 입력
+		System.out.println("miles을 입력하시오: ");
+		miles = input.nextDouble();
+
+		// 마일을 킬로미터 계산
+		kilometers = miles * 1.609;
+
+		// 결곽값 출력
+		System.out.println("변환된 kilometers 값은 = " + kilometers);
+
+	}
+
+}

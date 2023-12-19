@@ -1,0 +1,54 @@
+1700097409541	Delete element
+1700100535244	Rename type 'CreateObject'
+1700100558708	Rename type 'p755'
+1700100572049	Rename type 'p757'
+1700104017742	Delete element
+1700104155168	Delete element
+1700104383336	Rename package 'p780'
+1700104406331	Rename package 'sec02_fileinputoutputstream'
+1700104591033	Rename resource 'FileInput-Stream1'
+1700104602089	Rename resource 'FileInput-Stream1.txt'
+1700104842272	Delete element
+1700105006354	Delete element
+1700105198914	Rename resource 'FileInput-Stream1'
+1700105237989	Copy file
+1700105706345	Delete element
+1700106431432	Copy file
+1700106503034	Delete element
+1700106740284	Copy compilation unit
+1700106745609	Rename type 'FileInputStream_2'
+1700114147950	Rename package 'sec02_fileinputoutputstream.EX05_FileOutputStream_2'
+1700114172460	Rename package 'sec02_fileinputoutputstream.EX01_FileInputStream_1'
+1700114183676	Rename package 'sec02_fileinputoutputstream.EX02_FileInputStream_2'
+1700114194642	Rename package 'sec02_fileinputoutputstream.EX03_FileInputStream_3'
+1700114223384	Rename package 'sec02_fileinputoutputstream.EX04_FileOutputStream_1'
+1700117297309	Rename package 'p891'
+1700117369454	Rename resource 'file2'
+1700117594186	Delete element
+1700117602025	Copy file
+1700117647073	Rename resource 'Stream1.txt'
+1700117652064	Rename resource 'Stream2.txt'
+1700119649956	Rename type 'CreateFileObject_p755'
+1700119657246	Rename type 'FileMethods_p757'
+1700119795915	Rename type 'p755_CreateFileObject'
+1700119821468	Rename type 'p757_FileMethods'
+1700119887732	Rename package 'ConsoleOutputObject_2'
+1700127326873	Rename package 'p781_sec02_fileinputoutputstream.EX01_FileInputStream_1'
+1700127557394	Rename type 'FileInputStream_2'
+1700127559903	Move compilation unit
+1700127562952	Move compilation unit
+1700127566856	Rename type 'FileInputStream_3'
+1700127571591	Rename type 'FileInputStream_2_3'
+1700127699316	Rename package 'p783_sec02_fileinputoutputstream.EX02_FileInputStream_2'
+1700127755122	Rename package 'p787_sec02_fileinputoutputstream.EX03_FileInputStream_3'
+1700128000828	Rename package 'p792_sec02_fileinputoutputstream.EX04_FileOutputStream_1'
+1700128202412	Rename package 'p795_sec02_fileinputoutputstream.EX05_FileOutputStream_2'
+1700128835623	Rename package 'p798'
+1700129006135	Rename package 'p801'
+1700129250617	Rename package 'p803'
+1700129355191	Rename package 'p807'
+1700129360204	Rename package 'p809_ConsoleOutputObject_2'
+1700129364883	Rename package 'p809_ConsoleOutputObject_2_O'
+1700129483211	Rename package 'p821'
+1700129486614	Rename package 'p819'
+1700129491527	Rename package 'p817'

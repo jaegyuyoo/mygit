@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Temp {
+
+	public static void main(String[] args) {
+		int score = 72;
+		
+		if(score >= 90) {
+			System.out.println("A");
+		}
+		else {
+			System.out.println("네");
+		}
+	}
+}

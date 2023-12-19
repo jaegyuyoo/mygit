@@ -1,0 +1,65 @@
+import java.util.Scanner;
+
+public class RockPaperScissorsGame {
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		Scanner nameInput = new Scanner(System.in);
+
+		int comChoice; // 컴퓨터 랜덤 번호
+		int userChoice; // 사용자 랜덤번호 
+		int comWin; // 컴퓨터 이김 횟수
+		int userWin; // 사용자 이김 횟수
+		
+		String userName; // 사용자이름 
+		
+		int tieCount = 0; // 비김횟수
+		int userWinCount = 0; // 사용자 승리횟수
+		int comWinCount = 0; // 사용자 승리횟수
+
+		int gameCount = 0;
+		String yes = "";
+		
+		System.out.println("가위바위보 게임");
+		System.out.println("사용자 이름 입력: ");
+		userName = nameInput.nextLine();
+		
+		
+		
+		switch (userChoice) {
+		case 0:
+			if (comChoice == 0) {
+				System.out.println("둘 다 가위로 비김");
+				tieCount++;
+				System.out.println("비김 횟수 : " + tieCount);
+			} else if (comChoice == 2){
+				System.out.println(userName + "가 이김");
+				userWinCount++;
+				if (userWin == 2) {
+					System.out.println(userName + " 가 두번 이김");
+					userWinCount++;
+					
+					System.out.println();
+					System.out.println(userName + " 대 컴퓨터");
+					System.out.println(userWinCount + " 대" + comWinCount + "\n");
+					break;
+				}
+			} else {
+				System.out.println("컴이 이김");
+				comWin++;
+				if (comWin == 2) {
+					System.out.println("컴퓨터가 두번 이김");
+					comWinCount++;
+					
+					System.out.println();
+					System.out.println(userName + " 대 컴퓨터");
+					System.out.println(userWinCount + " 댜 " + comWinCount + "\n");
+					break;
+				}
+			}
+			break;
+		}
+		
+		
+	}
+}

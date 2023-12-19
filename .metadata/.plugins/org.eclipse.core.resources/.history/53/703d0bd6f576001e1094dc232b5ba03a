@@ -1,0 +1,17 @@
+/* 231030
+4과목 입력받아 평균점수 계산
+*/
+
+import java.util.Scanner;
+
+public class AverageCalculation {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("컴퓨터개론, Java프로그래밍, 영어, 일반수학 의 평균점수 계산"); // 제목
+		System.out.println();
+	}
+
+}

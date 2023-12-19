@@ -1,0 +1,42 @@
+/* 231030
+
+*/
+
+import java.util.Scanner;
+
+public class SecondClock {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+
+		int hours; // 시간 변수선언
+		int minutes; // 분 변수서언
+		int seconds; // 초 변수선언
+		int calculate_hours; // 시간 변환된 합계
+		int calculate_minutes; // 분 합계
+		int calculate_total; // 시간(초 변환), 분(초 변환), 초 합계
+
+		System.out.println("시, 분, 초 입력받아 '초'로 계산"); // 제목
+		System.out.println();
+
+		System.err.println("시간 을 입력해주세요 : ");
+		hours = input.nextInt();
+
+		calculate_hours = hours * 60 * 60;
+
+		System.err.println("분 을 입력해주세요 : ");
+		minutes = input.nextInt();
+
+		System.err.println("초 를 입력해주세요 : ");
+		seconds = input.nextInt();
+
+		calculate_minites = minutes * 60;
+
+		calculate_total = calculate_hours + calculate_minites + seconds;
+		
+		System.out.println("입력된 시, 분, 초 입력에 대한 초 변환 값은 " + calculate_total + " 입니다.");
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;StudentMain.java&apos; to &apos;StudentProject_Collection_1114/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;Completed_Ch10_11_12_13_14_Inheritance_Interface_Polymorphism_Exception_O&apos;&#x0D;&#x0A;- Destination element: &apos;StudentProject_Collection_1114/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;Exam1109.StudentProject_Array_pdf_C.StudentMain.java&apos;" description="Copy compilation unit" destination="=StudentProject_Collection_1114/src&lt;" element1="/src&lt;Exam1109.StudentProject_Array_pdf_C{StudentMain.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1699942782063" units="1" version="1.0"/>
+</session>

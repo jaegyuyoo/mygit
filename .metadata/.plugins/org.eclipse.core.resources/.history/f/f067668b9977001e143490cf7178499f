@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class SubtractionQuiz {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+
+		int ramdomNumber1;
+		int ramdomNumber2;
+		int answer;
+
+		ramdomNumber1 = (int) (Math.random() * 101);
+		ramdomNumber2 = (int) (Math.random() * 101);
+
+		if (ramdomNumber1 < ramdomNumber2) {
+			int temp;
+
+			temp = ramdomNumber1;
+			ramdomNumber1 = ramdomNumber2;
+			ramdomNumber2 = temp;
+		}
+
+	System.out.println("뺄셈을 맞추는 퀴즈");
+	System.out.print(ramdomNumber1 + " - " + ramdomNumber2 + " = ");
+	answer = input.nextInt();
+	
+	if (ramdomNumber1 - ramdomNumber2 == answer) {
+		System.out.println("정답입니다.");
+	} else {
+		System.out.println("오답입니다. \n정답 : " + ramdomNumber1 + " - " + ramdomNumber2 + " = " + (ramdomNumber1 - ramdomNumber2));
+	}
+	}
+
+}

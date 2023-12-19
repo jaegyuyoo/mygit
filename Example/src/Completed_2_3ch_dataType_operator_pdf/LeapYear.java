@@ -1,0 +1,28 @@
+package Completed_2_3ch_dataType_operator_pdf;
+
+import java.util.Scanner;
+
+public class LeapYear {
+
+	public static void main(String[] args) {
+		
+		// 사용자로부터 입력을 받기 위해 Scanner를 생선한다.
+		Scanner input = new Scanner(System.in);
+		
+		int year; //년도
+		boolean isLeapYear; //윤년
+		
+		System.out.println("운년을 계산하는 프로그램");
+		
+		System.out.println("년도 입력: ");
+		year = input.nextInt();
+		
+		//윤년인지 확인
+		isLeapYear = (year % 4 == 0 && year % 100 !=0) || (year % 400 == 0);
+		
+		//결과를 표시합니다.
+		System.out.println(year + "년은 윤년인가요? " + isLeapYear);
+		
+	}
+
+}

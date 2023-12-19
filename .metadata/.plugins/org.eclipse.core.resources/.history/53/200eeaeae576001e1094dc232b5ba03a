@@ -1,0 +1,33 @@
+/* 231030 
+받은돈, 상품가격 입력받아 부가세 거름돈 계산 및 출력
+*/
+
+import java.util.Scanner;
+
+public class VatChangeCalculation {
+
+	public static void main(String[] args) {
+
+		// 받은돈, 상품의총액을 입력받기 위한 Scanner
+		Scanner input = new Scanner(System.in);
+		
+		int money; // 받은돈
+		int sum; // 상품의총액
+		int vat; // 부가세
+		int change; // 거스름돈
+		
+		System.out.println("받은돈을 입력해주세요.");
+		money = input.nextInt();
+		
+		System.out.println("상품의 총액을 입력해주세요.");
+		sum = input.nextInt();
+		
+		vat = sum * 1;
+		change = money - sum;
+		
+		
+		
+		
+	}
+
+}

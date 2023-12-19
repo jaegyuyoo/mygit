@@ -1,0 +1,29 @@
+package Completed_2_3ch_dataType_operator_pdf;
+
+import java.util.Scanner;
+
+public class CircleArea {
+
+	public static void main(String[] args) {
+		
+		// 사용자로부터 입력을 받기 위해 Scanner를 생선한다.
+		Scanner input = new Scanner(System.in);
+		
+		double radius; // 원의 반지름
+		double area; // 원의 면적
+		
+		System.out.println("원의 면적을 계산하는 프로그램");
+		
+		// 반지름을 입력받는다
+		System.out.println("반지름을 입력하시오: ");
+		radius = input.nextDouble();
+		
+		// 면적을 계산한다
+		area = radius * radius * 3.14159;
+		
+		// 면적을 출력하낟
+		System.out.println("반지름: " + radius + "\n면적 : " + area);
+		
+	}
+
+}

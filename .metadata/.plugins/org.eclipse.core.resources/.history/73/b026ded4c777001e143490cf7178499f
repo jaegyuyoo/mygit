@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class PolygonAreaCalculator {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		String op;
+		
+		double number1;
+		double number2;
+		
+		double squar;
+		double width;
+		double length;
+		
+		double triangle;
+		double base;
+		double height;
+		
+		double circle;
+		
+		
+	}
+
+}

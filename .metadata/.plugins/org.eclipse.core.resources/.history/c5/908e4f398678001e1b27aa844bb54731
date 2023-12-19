@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+import javax.print.DocFlavor.INPUT_STREAM;
+
+public class CuessNumberOneTime {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+
+		int number; // 랜덤
+		int guess; // 입력
+
+		number = (int) (Math.random() * 101);
+
+		System.out.println("숫자 맞추기 게임");
+
+		System.out.println("0~100 사이 숫자입력 :");
+		guess = input.nextInt();
+
+		if (guess == number) {
+			System.out.println(guess + " 맞추었습니다.");
+
+		} else if (guess>number); {
+			System.out.println("추측 숫자가 크다");
+		} else {
+			System.out.println("추측 숫자가 적다");
+		}
+	}
+	
+}

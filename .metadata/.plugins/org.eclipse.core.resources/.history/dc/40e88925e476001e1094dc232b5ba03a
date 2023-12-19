@@ -1,0 +1,9 @@
+package Completed;
+
+public class VatChangeCalculation {
+
+	public static void main(String[] args) {
+
+	}
+
+}

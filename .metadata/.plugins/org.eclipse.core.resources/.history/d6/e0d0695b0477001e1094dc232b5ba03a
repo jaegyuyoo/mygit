@@ -1,0 +1,25 @@
+/* 231030
+물, 최종, 초기온도 입력받아 에너지 계산
+*/
+
+import java.util.Scanner;
+
+public class EnergyToHeatWater {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		double m;
+		double c;
+		double q;
+		double initialTemperate;
+		
+		
+		System.out.println("물, 최종, 초기온도 입력받아 에너지 계산"); // 제목
+		System.out.println();
+
+		
+	}
+
+}

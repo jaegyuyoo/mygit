@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Menusasve {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner input = new Scanner(System.in);
+		
+		int[] customers; //고객수
+		customers 
+		String[] odersNumber; // 주문수 
+		
+		System.out.println("고객수를 입력하세요: ");
+		customers = input.nextInt();
+		
+	}
+
+}

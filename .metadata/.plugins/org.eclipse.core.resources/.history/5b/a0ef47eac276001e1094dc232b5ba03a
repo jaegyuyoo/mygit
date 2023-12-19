@@ -1,0 +1,56 @@
+import java.util.Scanner;
+
+public class ComputerChange {
+
+	public static void main(String[] args) {
+
+			// Scanner 클래서 인스턴스 생성
+			Scanner input = new Scanner(System.in);
+			
+			double amount; // 전체금액(달러)
+			int remainingAmount; // 센트로 변환
+			int numberOfOneDollars; // 달러(100 센터)
+			int numberOfQualters; // 쿼터(25 센트)
+			int numberOfDiems; // 다음(10 센트)
+			int numberOfNickels; // 니켈(5 센트)
+			int numberOfPennies; // 페니( 1센트)
+			
+			String output; // 출력 문자열
+			System.out.println("달러를 센트로 변환하는 프로그램");
+			
+			// 금액을 받는다
+			System.out.println("달러 금액을 입력(예:13.78) : ");
+			amount = input.nextDouble();
+			
+			remainingAmount = (int) (amount * 100);
+			
+			// 달러의 개수를 계산 
+			numberOfOneDollars = remainingAmount / 100;
+			remainingAmount = remainingAmount % 100;
+			
+			// 나머지 금액에서 쿼터의 개수를 계산
+			numberOfQualters  = remainingAmount / 25;
+			remainingAmount = remainingAmount % 25;
+			
+			// 나머지 금액에서 다임의 개수를 계산
+			numberOfDiems = remainingAmount / 10;
+			remainingAmount = remainingAmount % 10;
+			
+			// 나머지 금액에서 니켈의 개수를 계산
+			numberOfNickels = remainingAmount / 5;
+			remainingAmount = remainingAmount % 5;
+			
+			// 나머지 금액을 페니의 개수로 한다.
+			numberOfPennies = remainingAmount;
+			
+			// 결과출력
+			out = "전체 : \t" + amount + " 달러\n" + "구성 : \t" + numberOfOneDollars + " dollars\n" + "\t" + numberOfQualters + " quarters\n" + "\t" + numberOfDiems + " dimes\n" + "\t" + numberOfNickels + " nickel\n" + "\t" + numberOfPennies + " pennies";
+			
+			
+			System.out.println(output);
+			
+			
+		
+	}
+
+}

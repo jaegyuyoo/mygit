@@ -1,0 +1,35 @@
+
+public class ArrayTest {
+
+	public static void main(String[] args) {
+
+		int[] a = new int[100]; // 집주소(동사무소)
+		// System.out.println(a); // 실제 메모리 주소 *값이 메모리주소
+		// 메모리랑 값이랑 구분되어있다 - 집주소 동사무소, 침대 방
+
+		for (int i = 0; i < a.length; i++) {
+			a[i] = i+1;
+		}
+		for (int v : a) {
+			System.out.println(v);
+		}
+	}
+}
+// 변수명이달라도 주소가같으면 같은값 
+
+
+// 
+/*
+a[0] = 10;
+a[3] = 30;
+
+System.out.println(a[0]);
+System.out.println(a[1]);
+System.out.println(a[3]);
+
+// System.out.println(a[5]); // (오류발생) 0부터 시작해 4까지니까~
+
+System.out.println(a.length); // 길이(갯수) int[] a = new int[5]; - 반복분때 사용
+
+for (int i = 0; i < a.length; i++) {
+*/

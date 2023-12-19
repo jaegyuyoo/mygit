@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class SubtractionQuiz {
+
+	public static void main(String[] args) {
+
+			Scanner input = new Scanner(System.in);
+			
+			int ramdomNumber1;
+			int ramdomNumber2;
+			int answer;
+			
+			ramdomNumber1 = (int) (Math.random() * 101);
+			ramdomNumber2 = (int) (Math.random() * 101);
+			
+		
+	}
+
+}

@@ -1,0 +1,48 @@
+/* 231030
+근무시간, 시간당급여 인력받아 총급여, 세금액, 수령금여 계산
+*/
+
+import java.util.Scanner;
+
+public class SalaryLedger {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+
+		char name;
+		int hours;
+		int salary;
+		int tax;
+		int total;
+		int receivedSalary;
+
+		String string; // 문자열
+		String stringline;
+
+		System.out.println("근무시간, 시간당급여 인력받아 총급여, 세금액, 수령금여 계산"); // 제목
+		System.out.println();
+
+		System.out.print("직원의 이름 (예: 유재규) : ");
+		string = input.next();
+
+		System.out.print("주당 근무 시간 (예: 40) : ");
+		hours = input.nextInt();
+
+		System.out.print("시간당 급여 (예 : 4320) : ");
+		salary = input.nextInt();
+
+		System.out.print("소득 세금 (예 : 3.3%) : ");
+		tax = input.nextInt();
+
+		total = hours * salary;
+		tax = total * (tax / 100);
+		receivedSalary = salary - tax;
+
+		System.out.print("총 급여" + total);
+		System.out.print("세금액" + tax);
+		System.out.print("수령금여" + receivedSalary);
+
+	}
+
+}

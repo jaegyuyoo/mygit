@@ -1,0 +1,26 @@
+/* 231030
+등록금을 입력받아 4년동안 등록금 출력
+*/
+
+import java.util.Scanner;
+
+public class TuitionFee {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		double tuition;
+		double increaseRate;
+		double increase;
+		double increase_2years;
+		double increase_3years;
+		double increase_4years;
+		
+		System.out.println("등록금을 입력받아 4년동안 등록금 출력"); // 제목
+		System.out.println();
+		
+		
+	}
+
+}

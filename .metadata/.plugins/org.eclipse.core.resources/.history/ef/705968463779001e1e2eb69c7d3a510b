@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class MaxValue {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		final  int TOTAL_NUMBERS = 6; //배열갯수
+		int[] numbers = new int[TOTAL_NUMBERS]; // 1차원배열선언
+		int max; // 최대값
+		int count = 0; // 최대값개수
+		String output = "\n 배열: "
+		
+	}
+
+}

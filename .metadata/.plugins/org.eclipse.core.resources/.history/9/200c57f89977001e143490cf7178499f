@@ -1,0 +1,15 @@
+package Completed;
+
+import java.util.Scanner;
+
+public class ComputeBMI {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		double weight;
+		
+	}
+
+}

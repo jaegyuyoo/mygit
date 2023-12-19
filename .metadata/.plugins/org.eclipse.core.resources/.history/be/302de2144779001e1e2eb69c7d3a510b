@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class CreditCard {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+
+		final int MONTHLYUSED; // 12개월 각각 사용 금액
+		MONTHLYUSED = 12;
+
+		int highMonthly; // 지출이 많았던 월
+		int lowMonthly; // 지출이 적었던 월
+		
+		int output;
+		
+		System.out.println("월 별 사용금액을 입력받아 가장 지출이 많았던 / 적었던 월을 출력하는 프로그램");
+
+		// 월별 사용금액 입력
+		int[] month = new int[MONTHLYUSED];
+		for (int i = 0; i < MONTHLYUSED; i++) {
+			System.out.println((i + 1) + " 월 의 카드값을 입력해주세요: ");
+			month[i] = input.nextInt();
+		}
+
+		// max
+		highMonthly = month[0]; // 0번째 배열이 최대값이라고 가정
+		for (int i = 0; i < MONTHLYUSED; i++) {
+			if (highMonthly < month[i]) {
+				highMonthly = month[i];
+			}
+			System.out.println("highMonthly 확인" + highMonthly);
+		}
+
+		output += highMonthly
+		// min
+
+		// 출력 (달을 출력)
+	}
+}

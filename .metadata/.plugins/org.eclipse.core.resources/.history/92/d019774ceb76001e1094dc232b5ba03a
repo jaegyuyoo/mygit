@@ -1,0 +1,37 @@
+/* 231030 
+받은돈, 상품가격 입력받아 부가세 거름돈 계산 및 출력
+*/
+
+import java.util.Scanner;
+
+public class VatChangeCalculation {
+
+	public static void main(String[] args) {
+
+		// 받은돈, 상품의총액을 입력받기 위한 Scanner
+		Scanner input = new Scanner(System.in);
+
+		int money; // 받은돈
+		int sum; // 상품의총액
+		double vat; // 부가세
+		int change; // 거스름돈
+
+		System.out.println("받은돈, 상품가격을 입력받아 부가세 거스름돈을 계산하여 영수증을 출력"); // 제목
+		System.out.println("");
+
+		System.out.print("받은돈을 입력해주세요.");
+		money = input.nextInt(); // 받은돈 입력받기
+
+		System.out.print("상품의 총액을 입력해주세요.");
+		sum = input.nextInt(); // 상품의총액 입력받기
+
+		vat = sum / 10; // 부가세 계산 (상품의 총액의 10%, sum/10)
+		change = money - sum; // 거스름돈 계산 (받은돈 - 상품의총액)
+
+		System.out.println("= 영수증 =" + "\n" + "받은 돈 : " + money + "\n" + "상품의 총액 : " + sum + "\n" + "부가세 : " + vat
+				+ "\n" + "거스름돈 : " + change);
+		// 예시에 나온것처럼 영수증 표기 줄넘김 \n 이용
+
+	}
+
+}

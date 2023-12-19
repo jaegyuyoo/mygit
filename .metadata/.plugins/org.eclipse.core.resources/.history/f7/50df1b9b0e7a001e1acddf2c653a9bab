@@ -1,0 +1,11 @@
+
+public class Temp3 {
+
+	public static void main(String[] args) {
+
+		for (int j = 0; j < 3; j++) 
+			if(j == 1) {
+				break;
+	}
+
+}

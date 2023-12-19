@@ -1,0 +1,20 @@
+
+public class CalendarPrint {
+
+	public static void main(String[] args) {
+	
+		int year;
+		int startDay;
+		
+		
+		switch (month) {
+		case value: {
+			
+			yield type;
+		}
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + month);
+		}
+	}
+
+}

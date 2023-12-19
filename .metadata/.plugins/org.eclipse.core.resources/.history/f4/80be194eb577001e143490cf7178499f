@@ -1,0 +1,65 @@
+/* 231030
+근무시간, 시간당급여 인력받아 총급여, 세금액, 수령금여 계산
+*/
+package Completed;
+
+import java.util.Scanner;
+
+public class SalaryLedger {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+
+		char name; // 이름 변수
+		double hours; // 주당 근무시간 변수
+		double salary; // 시간당 급여 변수
+		double tax; // 세금 변수
+		double total; // 총급여 변수
+		double receivedSalary; // 수령금액 변수
+
+		String string; // 문자열
+		String stringline;
+
+		System.out.println("근무시간, 시간당급여 인력받아 총급여, 세금액, 수령금여 계산"); // 제목
+		System.out.println();
+
+		System.out.print("직원의 이름 (예: 유재규) : ");
+		string = input.next(); // 직원 이름 입력
+
+		System.out.print("주당 근무 시간 (예: 40) : ");
+		hours = input.nextDouble(); // 주당 근무시간 입력
+
+		System.out.print("시간당 급여 (예 : 4320) : ");
+		salary = input.nextDouble(); // 시간당 급여 입력
+
+		System.out.print("소득 세금 (예 : 3.3%) : ");
+		tax = input.nextDouble(); // 세금 입력
+
+		if (money >= 0 && sum >= 0) {
+			vat = sum * 0.1; // 부가세 계산 (상품의 총액의 10%, sum/10)
+			change = money - sum; // 거스름돈 계산 (받은돈 - 상품의총액)
+
+			System.out.println("= 영수증 =" + "\n" + "받은 돈 : " + money + "\n" + "상품의 총액 : " + sum + "\n" + "부가세 : " + vat
+					+ "\n" + "거스름돈 : " + change);
+			// 예시에 나온것처럼 영수증 표기 줄넘김 \n 이용
+			// (Q) 상품의총액이 한자리면 부가세가 안나올수다... 예저처럼 INT로해야하는가?
+		} else if (money < 0 && sum >= 0) {
+			System.out.println("받은돈이 0보다 작습니다.");
+		} else if (money >= 0 && sum < 0) {
+			System.out.println("상품의 총액이 0보다 작습니다.");
+		} else {
+			System.out.println("두값모두 0보다 작습니다.");
+		}
+
+		
+		total = hours * salary; // 총 급여 계산
+		tax = total * (tax / 100); // 세금액 계산
+		receivedSalary = total - tax; // 수령급여 계산
+
+		System.out.print(
+				"총 급여 " + total + " 원 " + "\n" + "세금액 " + tax + " 원 " + "\n" + "수령금여 " + receivedSalary + " 원 ");
+		// 결과출력
+	}
+
+}

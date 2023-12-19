@@ -1,0 +1,44 @@
+package Completed;
+
+import java.util.Scanner;
+
+public class CylinderVolume {
+
+	public static void main(String[] args) {
+
+		// 반지름과 높이값을 입력받기 위해 scanner 사용
+		Scanner input = new Scanner(System.in);
+
+		double volume; // 변수선언(부피)
+		double area; // 변수선언(원의면적)
+
+		double radius; // 변수선언(반지름)
+		double lenght; // 변수선언(길이)
+
+		// 실린더의 원의 반지름을 입력
+		System.out.println("실린더의 원을 계산");
+		System.out.println("반지름을 입력해주세요(cm)"); // 계산에 필요한 변수를 입력받으시오 (반지름)
+		radius = input.nextDouble();
+
+		// 실린더의 길이를 입력
+		System.out.println("실린더의 부피를 계산");
+		System.out.println("길이를 입력해주세요(cm)"); // 계산에 필요한 변수를 입력받으시오 (높이)
+		lenght = input.nextDouble();
+
+		if (radius > 0 && lenght > 0) {
+			area = radius * radius * 3.14; // 실린더의 원의 면적(반지름x반지름x원주율)
+			volume = area * lenght; // 부피(원의면적X길이)
+			// 계산값 값을 출력
+			System.out.println("반지름이" + radius + " " + "길이가" + lenght + "인 실린더의 부피는 = " + volume + "입니다.");
+		} else if (radius == 0 && lenght == 0) { // 둘다 0인경우 
+			System.out.println("0 이외 수를 입력해주세요");
+		} else if (radius < 0 && lenght > 0) { // 반지름이 음수인 경우
+			System.out.println("반지름이 음수입니다. 양의 반지름을 입력해주세요");
+		} else if (radius > 0 && lenght < 0) { // 길이가 음수인 경우
+			System.out.println("길이가 음수입니다. 양의 길이를 입력해주세요");
+		} else {
+			System.out.println("반지름, 길이 모두 음수입니다. 모두 양수로 입력해주세요");
+		}
+	}
+
+}

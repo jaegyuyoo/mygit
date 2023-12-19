@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class StudentGrade {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		Scanner input1 = new Scanner(System.in);
+
+		int students; // 학생수
+		int subject; // 과목수
+		String[] name; // 학생이름
+		int[][] grade; // 점수
+		String[] subjectName; // 과목명
+		int[] sum; // 합계
+
+		System.out.println("학교성적입력프로그램");
+		do {
+			System.out.println("학생수 입력(양수): ");
+			students = input1.nextInt();
+		} while (students <= 0);
+
+		do {
+			System.out.println("과목수 입력(양수): ");
+			subject = input1.nextInt();
+		} while (students <= 0);
+		
+		// 배열크기설정
+		name = new String[students]; // 학생이름배열
+		grade = new int[students][subject]; // 점수 2차원배열 
+		sum = new int[students]; // 합계배열
+		subjectName = new String[subject]; // 과목명배열 
+ 		
+		// 과목명입력
+		for (int k = 0; k < subject; k++) {
+			System.out.println("과목명 입력: ");
+			subjectName[k] = input.nextLine();
+		}
+		
+		// 학생이름과점수입력
+	}
+
+}

@@ -1,0 +1,24 @@
+
+
+public class Ch3 {
+
+	public static void main(String[] args) {
+
+		
+		
+//		int a =  5;
+//		int b = a++;
+//		System.out.println(a); // a의값증감된걸
+//		System.out.println(b); // a의 5를 바로넣는다
+//		System.out.println(++a); 
+//		System.out.println(++b);
+//		System.out.println(a++ + --b); // 뒤에있는 ++는 상관없다.
+//		System.out.println(a + b);
+//		
+		
+//		System.out.println(2 + 3 / 2);
+//		System.out.println(10 % 3 + 5 / 3);
+//		System.out.println((4 + 5 / 2) % 4);
+	}
+
+}

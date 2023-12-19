@@ -1,0 +1,21 @@
+
+
+import java.util.Scanner;
+
+public class ComputeBMI {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+		
+		double weight;
+		double height;
+		double bmi;
+		
+		// 제목
+		System.out.println("BMI(Body Mass Index) 체질량 지수 측정 프로그램");
+		System.out.println();
+		
+	}
+
+}
